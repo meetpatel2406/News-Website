@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div>
       <Navbar/>
-      <Newstop pageSize={10}/>
+      <Newstop pageSize={9} country={"in"} category={"sports"}/>
     </div>
   )
 }
