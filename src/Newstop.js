@@ -92,7 +92,7 @@ export default class Newstop extends Component {
             {!this.state.loading && this.state.articles.map((element)=>
             {
                 return  <div className="col-md-4 my-4"  key={element.url}>
-                <News title={element.title} description={element.description} imgurl={element.urlToImage} newsurl={element.url}/>
+                <News title={element.title} description={element.description} imgurl={element.urlToImage} newsurl={element.url} author={element.author} date={element.publishedAt} source={element.source.name}/>
             </div>
             })}
         </div>
