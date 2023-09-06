@@ -18,8 +18,8 @@ export default class Newstop extends Component {
   static propTypes={
     country:PropTypes.string,
     pageSize:PropTypes.number,
-    category:PropTypes.string
-
+    category:PropTypes.string,
+    API_KEY:PropTypes.string
   }
 
   capitalizeFirstLetter=(string)=> {
@@ -74,9 +74,9 @@ export default class Newstop extends Component {
     //   }
     // }
 
-    async componentDidMount(){
+    componentDidMount=async()=>{
         console.log("cmd")
-        let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&&category=${this.props.category}&apiKey=4b34e762f3bd4460bd9645b691e2a260&page=1&pageSize=${this.props.pageSize}`
+        let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&&category=${this.props.category}&apiKey=${this.props.API_KEY}&page=1&pageSize=${this.props.pageSize}`
         this.setState({loading:true})
         let data=await fetch(url)
         let parseData=await data.json()
@@ -92,7 +92,7 @@ export default class Newstop extends Component {
 
     fetchMoreData = async() => {
         // this.setState({})
-        let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&&category=${this.props.category}&apiKey=4b34e762f3bd4460bd9645b691e2a260&page=${this.state.page}&pageSize=${this.props.pageSize}`
+        let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&&category=${this.props.category}&apiKey=${this.props.API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`
         this.setState({loading:true})
         let data=await fetch(url)
         let parseData=await data.json()
@@ -100,18 +100,20 @@ export default class Newstop extends Component {
         this.setState(
           {
             page:this.state.page+1,
-            loading:false,
+            
             articles:this.state.articles.concat(parseData.articles),
             totalResults:parseData.totalResults
           }
           )
+        this.setState({loading:false})
+        console.log("done")
     };
 
 
 
   render() {
     return (
-      <div className='container my-3'>
+      <>
         <h2 style={{textAlign:"center"}}>{this.capitalizeFirstLetter(this.props.category)} headlines</h2>
         {/* {this.state.loading && <Spinner/>} */}
 
@@ -121,17 +123,19 @@ export default class Newstop extends Component {
           hasMore={this.state.articles.length!==this.totalResults}
           loader={<Spinner/>}
         >
-        <div className="container row my-5">
-            {this.state.articles.map((element)=>
-            {
-                return  <div className="col-md-4 my-4"  key={element.url}>
-                <News title={element.title} description={element.description} imgurl={element.urlToImage} newsurl={element.url} author={element.author} date={element.publishedAt} source={element.source.name}/>
-            </div>
-            })}
+
+        <div className="container">
+          <div className="container row my-5">
+              {this.state.articles && this.state.articles.map((element)=>
+              {
+                  return  <div className="col-md-4 my-4"  key={element.url}>
+                  <News title={element.title} description={element.description} imgurl={element.urlToImage} newsurl={element.url} author={element.author} date={element.publishedAt} source={element.source.name}/>
+              </div>
+              })}
+          </div>
         </div>
-        </InfiniteScroll>
-        
-      </div>
+        </InfiniteScroll>      
+      </>
     )
   }
 }
