@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const News=(props)=> {
     const {title,description,imgurl,newsurl,author,date,source}=props;

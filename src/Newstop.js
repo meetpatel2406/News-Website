@@ -17,6 +17,7 @@ const Newstop = (props) => {
 
   const componentDidMount = async () => {
     console.log("cmd");
+    props.setProgress(10)
     let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&&category=${props.category}&apiKey=${props.API_KEY}&page=1&pageSize=${props.pageSize}`;
     setLoading(true);
     let data = await fetch(url);
@@ -25,16 +26,16 @@ const Newstop = (props) => {
     setLoading(false);
     setArticles(parseData.articles);
     setTotalResult(parseData.totalResults);
+    props.setProgress(100)
   };
 
-  useEffect(() => {
+  useEffect((props) => {
     componentDidMount();
+    // eslint-disable-next-line
   }, []);
 
   const fetchMoreData = async () => {
-    let url = `https://newsapi.org/v2/top-headlines?country=${
-      props.country
-    }&&category=${props.category}&apiKey=${props.API_KEY}&page=${page + 1}&pageSize=${props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&&category=${props.category}&apiKey=${props.API_KEY}&page=${page + 1}&pageSize=${props.pageSize}`;
     setLoading(true);
     let data = await fetch(url);
     let parseData = await data.json();
@@ -50,7 +51,7 @@ const Newstop = (props) => {
 
   return (
     <>
-      <h2 style={{ textAlign: "center"}}>
+      <h2 style={{ textAlign: "center",marginTop:"90px"}}>
         {capitalizeFirstLetter(props.category)} headlines
       </h2>
       {loading && <Spinner />}
