@@ -4,7 +4,7 @@ const News=(props)=> {
     const {title,description,imgurl,newsurl,author,date,source}=props;
   return (
     <div>
-        <div className="card">
+        <div className="card" style={{background:"#FBFAF2"}}>
             <img src={imgurl?imgurl:"https://www.cartoq.com/wp-content/uploads/2023/08/hyundai-venue-2.8-kmpl-mileage-featured.jpg"} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">{title}...</h5>
