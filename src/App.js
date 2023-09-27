@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Newstop from './Newstop'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
+import Main from './components/home/Main';
 
 const App=()=>{
 
@@ -15,7 +16,7 @@ const App=()=>{
       <Navbar/>
       
       <Routes>
-        <Route exact  path='/' element={<Newstop key="general" setProgress={setProgress} API_KEY={api_key} pageSize={9} country={"in"} category={"general"}/>}/>
+        <Route exact  path='/' element={<Main/>}/>
         <Route exact  path='business/' element={<Newstop key="business"  setProgress={setProgress} API_KEY={api_key} pageSize={9} country={"in"} category={"business"}/>}/>
         <Route exact  path='entertainment/' element={<Newstop key="entertainment"  setProgress={setProgress} API_KEY={api_key} pageSize={9} country={"in"} category={"entertainment"}/>}/>
         <Route exact  path='general/' element={<Newstop key="general"  setProgress={setProgress} API_KEY={api_key} pageSize={9} country={"in"} category={"general"}/>}/>
