@@ -1,4 +1,5 @@
 import React from 'react'
+import "../heading/Heading.css"
 
 function Heading({title}) {
   return (

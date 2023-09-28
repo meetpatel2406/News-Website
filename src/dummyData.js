@@ -335,24 +335,24 @@ export const hero = [
   export const ppost = [
     {
       id: 1,
-      catgeory: "world",
-      title: "We Went Deep Underground For This Amazing Cave Shot",
+      catgeory: "Cool",
+      title: "We Went Deep Underground For This fool Shot",
       date: "19. February 2022",
-      cover: "../images/ppost/pop1.jpg",
+      cover: "https://images.pexels.com/photos/1629780/pexels-photo-1629780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
       id: 2,
-      catgeory: "health",
-      title: "6 Reasons Why You Shouldn’t Skip Breakfast",
+      catgeory: "Concert",
+      title: "Reasons Why You Shouldn’t Allen Walker Concert ",
       date: "19. February 2022",
-      cover: "../images/ppost/pop2.jpg",
+      cover: "https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
       id: 3,
-      catgeory: "food",
+      catgeory: "Fest",
       title: "Our Top 5 Restaurants For A Complete Culinary Experience",
       date: "19. February 2022",
-      cover: "../images/ppost/pop3.jpg",
+      cover: "https://images.pexels.com/photos/1782146/pexels-photo-1782146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
       id: 4,
@@ -362,41 +362,41 @@ export const hero = [
       cover: "../images/ppost/pop4.jpg",
     },
   ]
-  export const lifestyle = [
+  export const business = [
     {
       id: 1,
-      catgeory: "world",
+      catgeory: "Work",
       title: "Mustang Teases With A New Promo",
       date: "19. February 2022",
-      cover: "../images/life/life1.jpg",
+      cover: "https://images.pexels.com/photos/2127007/pexels-photo-2127007.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
       id: 2,
-      catgeory: "sport",
+      catgeory: "Office",
       title: "Surfs Up – Places For Killer Waves",
       date: "19. February 2022",
-      cover: "../images/life/life2.jpg",
+      cover: "https://images.pexels.com/photos/1181487/pexels-photo-1181487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
       id: 3,
-      catgeory: "fashion",
+      catgeory: "Adventure",
       title: "Learn How To Nail Your Favorite Look",
       date: "19. February 2022",
-      cover: "../images/life/life3.jpg",
+      cover: "https://images.pexels.com/photos/220836/pexels-photo-220836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
       id: 4,
-      catgeory: "world",
+      catgeory: "Life",
       title: "Music Playing On R&B Stations",
       date: "19. February 2022",
-      cover: "../images/life/life4.jpg",
+      cover: "https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
   ]
   export const tpost = [
     {
       id: 1,
       title: "US Promises to give Intel aid to locate the soldiers",
-      cover: "../images/tpost/tpost.webp",
+      cover: "../images/tpost/tpost.jpg",
     },
     {
       id: 2,
@@ -411,19 +411,19 @@ export const hero = [
   ]
   export const gallery = [
     {
-      cover: "../images/gallery/g1.jpg",
+      cover: "https://images.pexels.com/photos/1846422/pexels-photo-1846422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
-      cover: "../images/gallery/g2.jpg",
+      cover: "https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
-      cover: "../images/gallery/g3.jpg",
+      cover: "https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
-      cover: "../images/gallery/g4.jpg",
+      cover: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
-      cover: "../images/gallery/g5.jpg",
+      cover: "https://images.pexels.com/photos/8664304/pexels-photo-8664304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
   ]
   export const discover = [
@@ -450,6 +450,63 @@ export const hero = [
     {
       title: "nitendo",
       cover: "../images/discover/d6.jpg",
+    },
+  ]
+
+  export const sports = [
+    {
+      id: 1,
+      catgeory: "Cricket",
+      title: "Our Favorite Photos From All Around",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "https://images.pexels.com/photos/9153468/pexels-photo-9153468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      id: 2,
+      catgeory: "travel",
+      title: "Places To Visit For A Peaceful Holiday",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "https://images.pexels.com/photos/7188095/pexels-photo-7188095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      id: 3,
+      catgeory: "Ruby",
+      title: "Is This The New Boxing Champion?",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      id: 4,
+      catgeory: "Football",
+      title: "A Detailed Retelling Of Our Trek Through The Dangerous Alps",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "https://images.pexels.com/photos/918798/pexels-photo-918798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      id: 5,
+      catgeory: "Basketball",
+      title: "Natural Sunlight Boosts Your Immunity",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "https://images.pexels.com/photos/1752757/pexels-photo-1752757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      id: 6,
+      catgeory: "Kabaddi",
+      title: "Health Benefits From Asparagus",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "https://images.pexels.com/photos/10347115/pexels-photo-10347115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
     },
   ]
   {

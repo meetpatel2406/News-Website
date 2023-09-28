@@ -1,0 +1,39 @@
+.sports .box{
+    margin-bottom: 30px;
+    margin-left: 2px;
+    display: flex;
+}
+
+.sports .text{
+    padding: 0 30px;
+}
+
+.sports .images{
+    position: relative;
+    height: 150px;
+    width: 320px;
+}
+
+.sports img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sports h1{
+    font-size: 22px;
+}
+
+
+
+.sports .desc{
+    font-size: 10px;
+}
+
+.sports .shadow{
+    padding-bottom: 20px;
+}
+
+.sports .fas{
+    color: #fb4c35;
+}

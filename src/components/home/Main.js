@@ -5,9 +5,7 @@ import { Home } from './mainContent/homes/Home';
 function Main() {
     console.log("success")
   return (
-    <div className='container' style={{marginTop:'60px'}}>
-        
-        <h1>meet patel</h1>
+    <div className='container' style={{marginTop:'80px'}}>
         <Hero/>
         <Home/>
     </div>
