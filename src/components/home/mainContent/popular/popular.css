@@ -1,0 +1,67 @@
+.category  {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 60px;
+    letter-spacing: 2px;
+    background-color: purple;
+  }
+
+  .popular .box{
+    background-color: rgb(230, 229, 225);
+    display: flex;
+    position: relative;
+    margin: 30px 10px 50px 15px;
+  }
+
+  .popular .images{
+    position: relative;
+    height: 150px;
+    width: 300px;
+  }
+  .popular img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .popular .text h1{
+    padding: 25px 0 10px 35px;
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .popular .date{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 0 0 40px;
+  }
+
+  .category1{
+    border-left: 10px solid #fb4c35;
+    width: auto;
+    display: block; 
+    background: linear-gradient(to right,#fb4c35,black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 2 ease-in-out;
+    cursor: pointer;
+  } 
+  .category1 span{
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0;
+  }
+  .category1:hover{
+    background-position: left bottom;
+  }
+  .date i{
+    color: #fb4c35;
+  }
+  .shadow{
+    box-shadow: rgba(9, 7, 7, 0.2) 0 35px 35px -10px;
+  }
+  
+  .popular .shadow{
+    padding-bottom: 35px;
+  }
