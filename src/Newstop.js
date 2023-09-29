@@ -3,6 +3,7 @@ import News from "./News";
 import Spinner from "./Spinner";
 import PropTypes from "prop-types";
 import InfiniteScroll from "react-infinite-scroll-component";
+import "./.\\newstop.css"
 
 const Newstop = (props) => {
   const [articles, setArticles] = useState([]);
@@ -51,7 +52,7 @@ const Newstop = (props) => {
 
   return (
     <>
-      <h2 style={{ textAlign: "center",marginTop:"90px"}}>
+      <h2 className="headline">
         {capitalizeFirstLetter(props.category)} headlines
       </h2>
       {loading && <Spinner />}
