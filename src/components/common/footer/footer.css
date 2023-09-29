@@ -1,0 +1,119 @@
+footer {
+    margin-top: 2200px;
+    padding-bottom: 0;
+    background-color: #2d2a30;
+    margin-left: -54px;
+    margin-right: -53px;
+    box-sizing: border-box;
+    text-align: left;
+    font: bold 16px sans-serif;
+}
+
+.footer .footer-left, .footer .footer-center,  .footer .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer .footer-left{
+    width: 30%;
+}
+
+.footer .footer-company-name{
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.footer .footer-center{
+    width: 35%;
+    padding-top:100px;
+    padding-left: 100px;
+}
+
+.footer .footer-center i{
+    background-color: #33383b;
+    color: white;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 42px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.footer .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    padding-left: 15px;
+    margin: 5px;
+}
+
+.footer .footer-center span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-center p a{
+    color: orangered;
+    text-decoration: none;
+}
+
+
+.footer .footer-right{
+    width: 30%;
+    padding-top:100px;
+    padding-left: 100px;
+}
+
+.footer .about-me{
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.footer .about-me span{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .footer-icons{
+    margin-top: 25px;
+}
+
+.footer .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+
+
+
+.footer{
+    color: white;
+}
+
+
